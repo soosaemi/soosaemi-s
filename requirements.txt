@@ -1,0 +1,5 @@
+discord.py==1.7.3
+openpyxl.py==3.0.9
+requests.py==2.27.1
+asyncio.py==3.4.3
+datetime.py==4.3
