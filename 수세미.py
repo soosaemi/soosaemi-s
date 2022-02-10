@@ -1,4 +1,5 @@
 import discord
+import os
 import openpyxl
 import requests
 import asyncio
@@ -92,8 +93,8 @@ async def on_message(message):
         await message.channel.send(choiceresult)
 
 
-
-client.run("OTQxMTYwODY0NDUzNjM2MDk2.YgR6XA.Cvcz35XlJIAqGJhYUy6NT34xln8")
+access_token = os.environ[BOT_TOKEN]
+client.run("OTQxMTYwODY0NDUzNjM2MDk2.YgR6XA.Lz44MGinGu7Hwku6E1J8HHKrmXM")
 
 
 
